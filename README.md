@@ -1,267 +1,262 @@
 <div align="center">
 
-<img src="./assets/github-banner.png" alt="Islam Mamedov — Graduate AI Engineer" width="100%">
+<img src="./assets/profile-banner.png" width="100%" alt="Islam Mamedov — AI Engineer">
+
+<br>
 
 # Islam Mamedov
 
-### Graduate AI Engineer focused on Computer Vision, RAG and Agentic AI
+### AI Engineer building vision systems, RAG pipelines and domain-grounded agents
 
-I build domain-specific AI systems that combine trained vision models, technical knowledge retrieval and LLM-based reasoning.
+I design AI systems that move beyond simple demos — from custom model training
+and technical document retrieval to agent orchestration and live deployment.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN)
-[![Hugging Face](https://img.shields.io/badge/Hugging_Face-Live_Demos-FFD21E?style=for-the-badge\&logo=huggingface\&logoColor=black)](https://huggingface.co/Pace200413)
-[![Email](https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:YOUR-EMAIL)
+<br>
 
-</div>
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-0F172A?style=flat&logo=linkedin&logoColor=38BDF8" alt="LinkedIn">
+</a>
+&nbsp;
+<a href="https://huggingface.co/Pace200413">
+  <img src="https://img.shields.io/badge/Hugging_Face-Live_Models-0F172A?style=flat&logo=huggingface&logoColor=38BDF8" alt="Hugging Face">
+</a>
+&nbsp;
+<a href="mailto:YOUR-EMAIL">
+  <img src="https://img.shields.io/badge/Email-Contact-0F172A?style=flat&logo=gmail&logoColor=38BDF8" alt="Email">
+</a>
 
----
+<br><br>
 
-## About Me
-
-I am a Computer Science graduate with a double major in **Artificial Intelligence and Cybersecurity** from Swinburne University of Technology.
-
-My work focuses on applied AI systems that solve domain-specific problems rather than isolated model experiments. I have experience building complete workflows covering dataset preparation, model training, evaluation, retrieval, agent orchestration, user interfaces and deployment.
-
-Currently, I am developing multimodal inspection systems that detect structural defects from images and generate repair recommendations grounded in engineering documentation.
-
-* Based in Malaysia and open to relocation
-* Targeting graduate and junior AI engineering roles
-* Particularly interested in opportunities in the UAE and Abu Dhabi
-* Languages: English and Russian
-
----
-
-# Featured Project
-
-## Agentic Multimodal Inspection Intelligence System
-
-An end-to-end AI inspection platform that detects structural defects from images and uses a knowledge-grounded agent to explain the findings and recommend suitable repair actions.
-
-<div align="center">
-
-[![Live Demo](https://img.shields.io/badge/Launch_Live_Demo-FF4B4B?style=for-the-badge\&logo=huggingface\&logoColor=white)](https://huggingface.co/spaces/Pace200413/inspection-agent)
-[![Repository](https://img.shields.io/badge/View_Repository-181717?style=for-the-badge\&logo=github\&logoColor=white)](https://github.com/islam-mamedov/inspection-agent)
+`Computer Vision`   `Agentic AI`   `RAG`   `Model Fine-Tuning`   `AI Deployment`
 
 </div>
 
 <br>
 
-<div align="center">
-  <img src="./assets/inspection-demo.gif" alt="Inspection system demonstration" width="850">
-</div>
+## About
 
-### The problem
+Computer Science graduate from **Swinburne University of Technology**, with a double major in **Artificial Intelligence and Cybersecurity**.
 
-Structural inspection normally requires a combination of visual assessment and technical engineering knowledge. A detection model can identify visible damage, but it cannot independently explain the appropriate repair process or provide evidence for its recommendation.
+I focus on applied AI systems that combine trained models, domain knowledge and production software. My projects cover the complete development process: dataset preparation, model experimentation, evaluation, retrieval, agent workflows, interface development and deployment.
 
-This project combines computer vision, retrieval and agentic reasoning into one workflow.
+Currently building multimodal AI systems for structural inspection and technical decision support.
 
-### System workflow
+**Based in Malaysia · Open to relocation · Interested in UAE opportunities**
 
-```text
-Structural Image
-       ↓
-YOLOv8 Defect Detection
-       ↓
-Defect Type, Confidence and Location
-       ↓
-LangGraph Agent
-       ↓
-Relevant Manual Sections Retrieved
-       ↓
-Grounded Inspection and Repair Recommendation
-```
+<br>
 
-### Computer vision
+# Featured Work
 
-* Trained a **YOLOv8s object-detection model** for crack, corrosion and spalling detection
-* Prepared a custom dataset containing **1,770 images**
-* Worked with approximately **5,897 labelled defect instances**
-* Performed annotation checking, dataset cleaning, class validation and model evaluation
-* Compared YOLO-based detection with RT-DETR experiments
-* Generated annotated outputs containing bounding boxes, labels and confidence scores
+## Agentic Multimodal Inspection System
 
-### Agentic reasoning
-
-* Built a stateful reasoning workflow using **LangGraph**
-* Connected visual detections to a retrieval-augmented generation pipeline
-* Grounded responses in the **USACE EM 1110-2-2002 concrete repair manual**
-* Retrieved relevant technical passages before generating recommendations
-* Designed the system to separate visual detection, retrieval and response generation
-* Included supporting source context to reduce unsupported recommendations
-
-### Product and deployment
-
-* Developed an interactive interface for image upload and inspection
-* Displayed detected defect types, confidence scores and annotated results
-* Added structured inspection summaries and suggested actions
-* Deployed the application publicly using **Hugging Face Spaces**
-* Documented installation, architecture and system limitations in the repository
-
-### Technology
-
-`Python` · `PyTorch` · `Ultralytics YOLOv8` · `LangGraph` · `ChromaDB` · `OpenCV` · `Gradio` · `Hugging Face Spaces`
-
-### Architecture
+> Computer vision identifies the structural defect.
+> A knowledge-grounded agent explains the finding and recommends an appropriate response.
 
 <div align="center">
-  <img src="./assets/inspection-architecture.png" alt="Inspection system architecture" width="850">
+
+<br>
+
+<img src="./assets/inspection-demo.gif" width="88%" alt="Agentic inspection system demonstration">
+
+<br><br>
+
+<a href="https://huggingface.co/spaces/Pace200413/inspection-agent">
+  <img src="https://img.shields.io/badge/OPEN_LIVE_DEMO-38BDF8?style=for-the-badge&logo=huggingface&logoColor=0F172A" alt="Live demo">
+</a>
+&nbsp;
+<a href="https://github.com/islam-mamedov/inspection-agent">
+  <img src="https://img.shields.io/badge/VIEW_SOURCE-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Source code">
+</a>
+
 </div>
 
----
+<br>
+
+### Overview
+
+The system analyses structural imagery for visible defects and connects the detections to engineering knowledge.
+
+A fine-tuned vision model detects **cracks, corrosion and spalling**. The detection results are passed into a LangGraph workflow that retrieves relevant information from the **USACE EM 1110-2-2002 concrete repair manual** before producing a grounded inspection explanation.
+
+### System pipeline
+
+<div align="center">
+
+<img src="./assets/system-architecture.png" width="88%" alt="Inspection system architecture">
+
+</div>
+
+### What I built
+
+**Vision layer**
+
+* Fine-tuned YOLOv8s on a custom structural-defect dataset
+* Prepared and validated 1,770 labelled images
+* Worked with 5,897 defect annotations
+* Evaluated YOLO and RT-DETR model variants
+* Generated bounding boxes, classes and confidence scores
+
+**Intelligence layer**
+
+* Built a stateful agent workflow with LangGraph
+* Connected visual detections to document retrieval
+* Indexed technical engineering documentation
+* Retrieved supporting passages before response generation
+* Produced source-grounded explanations and repair guidance
+
+**Application layer**
+
+* Created an interactive inspection interface
+* Added visual detection results and structured findings
+* Generated inspection summaries and suggested actions
+* Deployed the complete system on Hugging Face Spaces
+
+### Core technology
+
+`Python` · `PyTorch` · `YOLOv8` · `LangGraph` · `ChromaDB` · `OpenCV` · `Gradio`
+
+<br>
 
 # Selected Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
+## Codebase Intelligence Assistant
 
-### Structural Defect Detection
+A retrieval-augmented assistant that answers technical questions using source code, documentation and repository context.
 
-Computer-vision system for detecting cracks, corrosion and spalling from structural imagery.
+`Python` · `RAG` · `Embeddings` · `Vector Search` · `LLMs`
 
-**Highlights**
+[Explore the repository →](YOUR-CODEBASE-RAG-LINK)
 
-* Custom object-detection dataset
-* YOLOv8 and RT-DETR experiments
-* Bounding-box annotation validation
-* Detection confidence and severity analysis
-* Interactive model interface
+<br>
 
-**Stack**
+## Structural Defect Detection
 
-`Python` `PyTorch` `YOLOv8` `RT-DETR` `OpenCV` `Gradio`
+A computer-vision project comparing object-detection approaches for crack, corrosion and spalling recognition.
 
-[View project →](YOUR-PROJECT-LINK)
+`YOLOv8` · `RT-DETR` · `PyTorch` · `OpenCV` · `Gradio`
 
-</td>
-<td width="50%" valign="top">
+[Explore the repository →](YOUR-DETECTION-PROJECT-LINK)
 
-### Codebase RAG Assistant
+<br>
 
-Retrieval system designed to answer technical questions using information extracted from source code, documentation and project files.
+## Swinburne Campus Platform
 
-**Highlights**
+A mobile-first campus system combining navigation, emergency support, events, student resources and administrative content management.
 
-* Code-aware document ingestion
-* Semantic chunking
-* Vector retrieval
-* Context-grounded answer generation
-* Source references
+`Next.js` · `TypeScript` · `React` · `Supabase` · `REST APIs`
 
-**Stack**
+[Explore the repository →](YOUR-CAMPUS-PROJECT-LINK)
 
-`Python` `Embeddings` `ChromaDB` `LLMs` `RAG`
+<br>
 
-[View project →](YOUR-PROJECT-LINK)
+## Published iOS Application
 
-</td>
-</tr>
+A native mobile application developed and released through the Apple App Store.
 
-<tr>
-<td width="50%" valign="top">
-
-### Swinburne Campus Platform
-
-A mobile-first campus system combining indoor navigation, student support, emergency tools, events and administrative content management.
-
-**Highlights**
-
-* Full-stack application architecture
-* Campus and 360-degree navigation
-* Emergency and support functionality
-* Role-based administrative tools
-* Supabase data management
-
-**Stack**
-
-`Next.js` `TypeScript` `React` `Supabase` `REST APIs`
-
-[View project →](YOUR-PROJECT-LINK)
-
-</td>
-<td width="50%" valign="top">
-
-### Published iOS Application
-
-A production mobile application designed, developed and released through the Apple App Store.
-
-**Highlights**
-
-* Native iOS development
-* Application lifecycle management
-* Interface and feature implementation
-* Production release experience
-
-**Stack**
-
-`Swift` `SwiftUI` `Xcode`
+`Swift` · `SwiftUI` · `Xcode`
 
 [View on the App Store →](YOUR-APP-STORE-LINK)
+
+<br>
+
+# Engineering Toolkit
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+### AI and Vision
+
+Python
+PyTorch
+YOLO
+RT-DETR
+OpenCV
+Scikit-learn
+
+</td>
+<td valign="top" width="33%">
+
+### LLM Systems
+
+LangGraph
+RAG
+Embeddings
+Vector databases
+Document processing
+Grounded generation
+
+</td>
+<td valign="top" width="33%">
+
+### Development
+
+TypeScript
+Next.js
+React
+Swift
+Supabase
+REST APIs
+Git and Linux
 
 </td>
 </tr>
 </table>
 
----
+<br>
 
-# Technical Skills
+# How I Work
 
-### Artificial Intelligence
+```text
+Understand the domain
+        ↓
+Prepare and validate the data
+        ↓
+Build a working baseline
+        ↓
+Evaluate and compare approaches
+        ↓
+Integrate models into a real product
+        ↓
+Document limitations and improve reliability
+```
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square\&logo=pytorch\&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square\&logo=opencv\&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square\&logo=huggingface\&logoColor=black)
-
-Computer Vision · Object Detection · Model Training · Dataset Preparation · Model Evaluation · Multimodal AI
-
-### LLM Systems
-
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square\&logo=langchain\&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square\&logo=langchain\&logoColor=white)
-
-Retrieval-Augmented Generation · Agentic Workflows · Embeddings · Vector Databases · Document Processing · Grounded Generation
-
-### Software Development
-
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square\&logo=typescript\&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square\&logo=nextdotjs\&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square\&logo=swift\&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
-
-REST APIs · Full-Stack Development · Mobile Development · Supabase · Git · Linux
-
----
+<br>
 
 # Education
 
-**Bachelor of Computer Science**
-Double Major in Artificial Intelligence and Cybersecurity
-**Swinburne University of Technology**
+### Bachelor of Computer Science
 
----
+**Double Major: Artificial Intelligence and Cybersecurity**
+Swinburne University of Technology
 
-# Current Focus
+<br>
 
-I am currently expanding my portfolio with systems that demonstrate:
+# Current Direction
 
-* Reliable agent orchestration
-* Evaluation of RAG and agent outputs
-* Multimodal AI workflows
+I am currently developing projects around:
+
+* Multimodal AI agents
+* Computer-vision inspection systems
+* RAG evaluation and reliability
 * Database-operating AI agents
-* Production-focused model deployment
-* AI system observability and error handling
+* Model and agent observability
+* Production-focused AI deployment
 
----
+<br>
 
 <div align="center">
 
-## Let’s Connect
+## Building AI that understands both data and domain knowledge.
 
-I am open to graduate and junior opportunities in AI engineering, computer vision, RAG and applied machine learning.
+<br>
 
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/YOUR-LINKEDIN)
-[![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge\&logo=gmail\&logoColor=white)](mailto:YOUR-EMAIL)
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
+  <img src="https://img.shields.io/badge/LET'S_CONNECT-38BDF8?style=for-the-badge&logo=linkedin&logoColor=0F172A" alt="Connect on LinkedIn">
+</a>
+
+<br><br>
+
+<sub>Islam Mamedov · AI Engineer · Computer Vision · RAG · Agentic Systems</sub>
 
 </div>
