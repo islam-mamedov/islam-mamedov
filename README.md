@@ -1,262 +1,278 @@
+<!-- =========================================================
+     AI ENGINEER GITHUB PROFILE README
+     Replace placeholder links, text and asset images later
+========================================================== -->
+
 <div align="center">
 
-<img src="./assets/profile-banner.png" width="100%" alt="Islam Mamedov — AI Engineer">
-
-<br>
-
-# Islam Mamedov
-
-### AI Engineer building vision systems, RAG pipelines and domain-grounded agents
-
-I design AI systems that move beyond simple demos — from custom model training
-and technical document retrieval to agent orchestration and live deployment.
-
-<br>
-
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0F172A?style=flat&logo=linkedin&logoColor=38BDF8" alt="LinkedIn">
-</a>
-&nbsp;
-<a href="https://huggingface.co/Pace200413">
-  <img src="https://img.shields.io/badge/Hugging_Face-Live_Models-0F172A?style=flat&logo=huggingface&logoColor=38BDF8" alt="Hugging Face">
-</a>
-&nbsp;
-<a href="mailto:YOUR-EMAIL">
-  <img src="https://img.shields.io/badge/Email-Contact-0F172A?style=flat&logo=gmail&logoColor=38BDF8" alt="Email">
-</a>
-
-<br><br>
-
-`Computer Vision`   `Agentic AI`   `RAG`   `Model Fine-Tuning`   `AI Deployment`
+<img src="./assets/header-banner.png" width="100%" alt="AI Engineer Portfolio Banner">
 
 </div>
 
 <br>
-
-## About
-
-Computer Science graduate from **Swinburne University of Technology**, with a double major in **Artificial Intelligence and Cybersecurity**.
-
-I focus on applied AI systems that combine trained models, domain knowledge and production software. My projects cover the complete development process: dataset preparation, model experimentation, evaluation, retrieval, agent workflows, interface development and deployment.
-
-Currently building multimodal AI systems for structural inspection and technical decision support.
-
-**Based in Malaysia · Open to relocation · Interested in UAE opportunities**
-
-<br>
-
-# Featured Work
-
-## Agentic Multimodal Inspection System
-
-> Computer vision identifies the structural defect.
-> A knowledge-grounded agent explains the finding and recommends an appropriate response.
-
-<div align="center">
-
-<br>
-
-<img src="./assets/inspection-demo.gif" width="88%" alt="Agentic inspection system demonstration">
-
-<br><br>
-
-<a href="https://huggingface.co/spaces/Pace200413/inspection-agent">
-  <img src="https://img.shields.io/badge/OPEN_LIVE_DEMO-38BDF8?style=for-the-badge&logo=huggingface&logoColor=0F172A" alt="Live demo">
-</a>
-&nbsp;
-<a href="https://github.com/islam-mamedov/inspection-agent">
-  <img src="https://img.shields.io/badge/VIEW_SOURCE-0F172A?style=for-the-badge&logo=github&logoColor=white" alt="Source code">
-</a>
-
-</div>
-
-<br>
-
-### Overview
-
-The system analyses structural imagery for visible defects and connects the detections to engineering knowledge.
-
-A fine-tuned vision model detects **cracks, corrosion and spalling**. The detection results are passed into a LangGraph workflow that retrieves relevant information from the **USACE EM 1110-2-2002 concrete repair manual** before producing a grounded inspection explanation.
-
-### System pipeline
-
-<div align="center">
-
-<img src="./assets/system-architecture.png" width="88%" alt="Inspection system architecture">
-
-</div>
-
-### What I built
-
-**Vision layer**
-
-* Fine-tuned YOLOv8s on a custom structural-defect dataset
-* Prepared and validated 1,770 labelled images
-* Worked with 5,897 defect annotations
-* Evaluated YOLO and RT-DETR model variants
-* Generated bounding boxes, classes and confidence scores
-
-**Intelligence layer**
-
-* Built a stateful agent workflow with LangGraph
-* Connected visual detections to document retrieval
-* Indexed technical engineering documentation
-* Retrieved supporting passages before response generation
-* Produced source-grounded explanations and repair guidance
-
-**Application layer**
-
-* Created an interactive inspection interface
-* Added visual detection results and structured findings
-* Generated inspection summaries and suggested actions
-* Deployed the complete system on Hugging Face Spaces
-
-### Core technology
-
-`Python` · `PyTorch` · `YOLOv8` · `LangGraph` · `ChromaDB` · `OpenCV` · `Gradio`
-
-<br>
-
-# Selected Projects
-
-## Codebase Intelligence Assistant
-
-A retrieval-augmented assistant that answers technical questions using source code, documentation and repository context.
-
-`Python` · `RAG` · `Embeddings` · `Vector Search` · `LLMs`
-
-[Explore the repository →](YOUR-CODEBASE-RAG-LINK)
-
-<br>
-
-## Structural Defect Detection
-
-A computer-vision project comparing object-detection approaches for crack, corrosion and spalling recognition.
-
-`YOLOv8` · `RT-DETR` · `PyTorch` · `OpenCV` · `Gradio`
-
-[Explore the repository →](YOUR-DETECTION-PROJECT-LINK)
-
-<br>
-
-## Swinburne Campus Platform
-
-A mobile-first campus system combining navigation, emergency support, events, student resources and administrative content management.
-
-`Next.js` · `TypeScript` · `React` · `Supabase` · `REST APIs`
-
-[Explore the repository →](YOUR-CAMPUS-PROJECT-LINK)
-
-<br>
-
-## Published iOS Application
-
-A native mobile application developed and released through the Apple App Store.
-
-`Swift` · `SwiftUI` · `Xcode`
-
-[View on the App Store →](YOUR-APP-STORE-LINK)
-
-<br>
-
-# Engineering Toolkit
 
 <table>
 <tr>
-<td valign="top" width="33%">
 
-### AI and Vision
+<!-- ==================== LEFT PROFILE COLUMN ==================== -->
 
-Python
-PyTorch
-YOLO
-RT-DETR
-OpenCV
-Scikit-learn
+<td width="30%" valign="top" align="center">
+
+<br>
+
+<img src="./assets/profile-photo.png" width="190" alt="Profile Photo">
+
+<h1>Your Name</h1>
+
+<h3>
+  <font color="#3B82F6">AI Engineer</font>
+</h3>
+
+<p>
+Building intelligent AI solutions that solve real-world problems and create meaningful impact.
+</p>
+
+<br>
+
+---
+
+<br>
+
+<p align="left">
+
+📍 Your City, Country
+
+<br><br>
+
+📧 [youremail@example.com](mailto:youremail@example.com)
+
+<br><br>
+
+💼 [LinkedIn Profile](https://www.linkedin.com/in/YOUR-LINKEDIN)
+
+<br><br>
+
+💻 [GitHub Profile](https://github.com/YOUR-USERNAME)
+
+</p>
+
+<br>
+
+<a href="./assets/resume.pdf">
+  <img src="https://img.shields.io/badge/Download_Resume-2563EB?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Download Resume">
+</a>
+
+<br><br>
+
+---
+
+<br>
+
+<p align="left">
+
+⚡ **Fun fact:** I automate boring tasks so I can spend more time building useful things.
+
+</p>
+
+<br>
 
 </td>
-<td valign="top" width="33%">
 
-### LLM Systems
+<!-- ==================== RIGHT MAIN COLUMN ==================== -->
 
-LangGraph
-RAG
-Embeddings
-Vector databases
-Document processing
-Grounded generation
+<td width="70%" valign="top">
+
+<br>
+
+<h3>👋 Hi, I’m Your Name</h3>
+
+<h1>AI Engineer</h1>
+
+<p>
+I build end-to-end AI solutions that combine data, trained models and software engineering to deliver measurable impact. My interests include computer vision, generative AI, retrieval-augmented generation and agentic systems.
+</p>
+
+<p>
+
+<img src="https://img.shields.io/badge/Machine_Learning-111827?style=for-the-badge&logo=scikitlearn&logoColor=3B82F6" alt="Machine Learning">
+
+<img src="https://img.shields.io/badge/Deep_Learning-111827?style=for-the-badge&logo=pytorch&logoColor=3B82F6" alt="Deep Learning">
+
+<img src="https://img.shields.io/badge/LLMs-111827?style=for-the-badge&logo=openai&logoColor=3B82F6" alt="LLMs">
+
+<img src="https://img.shields.io/badge/MLOps-111827?style=for-the-badge&logo=docker&logoColor=3B82F6" alt="MLOps">
+
+</p>
+
+<br>
+
+<img src="./assets/ai-brain-banner.png" width="100%" alt="AI Engineering Illustration">
+
+<br><br>
+
+<!-- ==================== ABOUT + TECH STACK ==================== -->
+
+<table>
+<tr>
+
+<td width="52%" valign="top">
+
+<h2>👤 About Me</h2>
+
+<p>
+AI Engineer with a strong foundation in machine learning, deep learning and software engineering. I enjoy turning complex technical problems into practical and scalable AI products.
+</p>
+
+<ul>
+  <li>Building end-to-end ML and deep-learning systems</li>
+  <li>Training and evaluating custom computer-vision models</li>
+  <li>Developing RAG pipelines and agentic AI workflows</li>
+  <li>Deploying interactive AI applications</li>
+  <li>Learning continuously through practical projects</li>
+</ul>
 
 </td>
-<td valign="top" width="33%">
 
-### Development
+<td width="48%" valign="top">
 
-TypeScript
-Next.js
-React
-Swift
-Supabase
-REST APIs
-Git and Linux
+<h2>🛠️ Tech Stack</h2>
+
+<p align="center">
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,sklearn" alt="AI Technologies">
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,docker,aws,git" alt="Development Technologies">
+
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=typescript,nextjs,react,supabase,linux" alt="Software Technologies">
+
+</p>
 
 </td>
+
 </tr>
 </table>
 
 <br>
 
-# How I Work
+<!-- ==================== FEATURED PROJECTS ==================== -->
 
-```text
-Understand the domain
-        ↓
-Prepare and validate the data
-        ↓
-Build a working baseline
-        ↓
-Evaluate and compare approaches
-        ↓
-Integrate models into a real product
-        ↓
-Document limitations and improve reliability
-```
+<h2>📁 Featured Projects</h2>
+
+<table>
+<tr>
+
+<td width="33%" valign="top">
+
+<h3>🤖 AI Chat Assistant</h3>
+
+<p>
+Conversational AI assistant powered by LLMs, retrieval-augmented generation and document-grounded responses.
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=3B82F6">
+<img src="https://img.shields.io/badge/LangGraph-111827?style=flat-square&logo=langchain&logoColor=3B82F6">
+<img src="https://img.shields.io/badge/RAG-111827?style=flat-square&logo=openai&logoColor=3B82F6">
+</p>
+
+🔗 [View Repository](YOUR-PROJECT-LINK)
+
+</td>
+
+<td width="33%" valign="top">
+
+<h3>📊 ML Prediction System</h3>
+
+<p>
+Machine-learning application that prepares data, trains models, evaluates performance and produces predictions.
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=3B82F6">
+<img src="https://img.shields.io/badge/Scikit--learn-111827?style=flat-square&logo=scikitlearn&logoColor=3B82F6">
+<img src="https://img.shields.io/badge/Pandas-111827?style=flat-square&logo=pandas&logoColor=3B82F6">
+</p>
+
+🔗 [View Repository](YOUR-PROJECT-LINK)
+
+</td>
+
+<td width="33%" valign="top">
+
+<h3>👁️ Computer Vision</h3>
+
+<p>
+Deep-learning system for detecting and classifying objects from images using custom-trained vision models.
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=3B82F6">
+<img src="https://img.shields.io/badge/PyTorch-111827?style=flat-square&logo=pytorch&logoColor=3B82F6">
+<img src="https://img.shields.io/badge/OpenCV-111827?style=flat-square&logo=opencv&logoColor=3B82F6">
+</p>
+
+🔗 [View Repository](YOUR-PROJECT-LINK)
+
+</td>
+
+</tr>
+</table>
 
 <br>
 
-# Education
+<!-- ==================== GITHUB STATS ==================== -->
 
-### Bachelor of Computer Science
-
-**Double Major: Artificial Intelligence and Cybersecurity**
-Swinburne University of Technology
-
-<br>
-
-# Current Direction
-
-I am currently developing projects around:
-
-* Multimodal AI agents
-* Computer-vision inspection systems
-* RAG evaluation and reliability
-* Database-operating AI agents
-* Model and agent observability
-* Production-focused AI deployment
-
-<br>
+<h2>📊 GitHub Statistics</h2>
 
 <div align="center">
 
-## Building AI that understands both data and domain knowledge.
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR-USERNAME&show_icons=true&hide_border=true&bg_color=0D1117&title_color=3B82F6&icon_color=3B82F6&text_color=E5E7EB" alt="GitHub Statistics">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR-USERNAME&layout=compact&hide_border=true&bg_color=0D1117&title_color=3B82F6&text_color=E5E7EB" alt="Most Used Languages">
 
 <br>
 
-<a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
-  <img src="https://img.shields.io/badge/LET'S_CONNECT-38BDF8?style=for-the-badge&logo=linkedin&logoColor=0F172A" alt="Connect on LinkedIn">
-</a>
-
-<br><br>
-
-<sub>Islam Mamedov · AI Engineer · Computer Vision · RAG · Agentic Systems</sub>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR-USERNAME&bg_color=0D1117&color=E5E7EB&line=3B82F6&point=60A5FA&area=true&hide_border=true" width="100%" alt="GitHub Contribution Graph">
 
 </div>
+
+<br>
+
+<!-- ==================== CONNECT ==================== -->
+
+<h2>🤝 Let’s Connect</h2>
+
+<p>
+I am open to collaborating on AI projects, discussing engineering ideas and exploring opportunities in artificial intelligence, computer vision and agentic systems.
+</p>
+
+<p>
+
+<a href="https://www.linkedin.com/in/YOUR-LINKEDIN">
+  <img src="https://img.shields.io/badge/LinkedIn-111827?style=for-the-badge&logo=linkedin&logoColor=3B82F6" alt="LinkedIn">
+</a>
+
+<a href="https://github.com/YOUR-USERNAME">
+  <img src="https://img.shields.io/badge/GitHub-111827?style=for-the-badge&logo=github&logoColor=3B82F6" alt="GitHub">
+</a>
+
+<a href="mailto:youremail@example.com">
+  <img src="https://img.shields.io/badge/Email-111827?style=for-the-badge&logo=gmail&logoColor=3B82F6" alt="Email">
+</a>
+
+</p>
+
+<br>
+
+<p align="center">
+  <i>Thanks for visiting my profile.</i> ⭐
+</p>
+
+</td>
+
+</tr>
+</table>
