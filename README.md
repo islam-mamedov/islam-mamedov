@@ -7,86 +7,102 @@
 </p>
 
 <p align="center">
-  <code>VISION</code>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <code>AGENTS</code>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <code>MEMORY</code>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <code>ACTION</code>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <code>SECURITY</code>
+  <img
+    src="./assets/status-rail.svg"
+    alt="AI core, vision, memory, tools, and security systems online"
+    width="100%"
+  />
 </p>
 
-## Building systems that perceive, reason, remember, and act
+<p align="center">
+  <a href="#system-core"><kbd> SYSTEM CORE </kbd></a>
+  &middot;
+  <a href="#featured-builds"><kbd> FEATURED BUILDS </kbd></a>
+  &middot;
+  <a href="#agent-console"><kbd> AGENT CONSOLE </kbd></a>
+</p>
 
-I’m **Islam Mamedov**, an **AI Engineer** focused on computer vision, agentic AI, retrieval-augmented generation, and intelligent systems. I build AI systems that can understand complex inputs, work with knowledge, use tools, and turn information into practical outcomes.
+<br />
 
-My work sits at the intersection of visual understanding, grounded language systems, and tool-using agents—especially where they can support inspection, software intelligence, and data analysis.
-
-## AI systems I build
-
-| System module | Engineering focus |
-| :--- | :--- |
-| **Eyes · Vision** | Computer vision, detection, and visual inspection |
-| **Neural core · Intelligence** | LLM-powered agents, planning, and reasoning workflows |
-| **Memory · Retrieval** | Vector search and RAG for grounded, context-aware systems |
-| **Hands · Action** | Automation, tool use, and agentic workflows |
-| **Shield · Security** | Cybersecurity-aware thinking for intelligent systems |
-
-## Featured projects
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img
-        src="./assets/projects/concrete-inspection.svg"
-        alt="Concrete Inspection Agent project card"
-        width="100%"
-      />
-      <h3>Concrete Inspection Agent</h3>
-      <p>
-        A computer-vision agent for analysing concrete surfaces and supporting
-        inspection workflows.
-      </p>
-      <p><code>Computer Vision</code> · <code>Inspection</code> · <code>Agents</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <img
-        src="./assets/projects/codebase-intelligence.svg"
-        alt="Codebase Intelligence Agent project card"
-        width="100%"
-      />
-      <h3>Codebase Intelligence Agent</h3>
-      <p>
-        An agentic system for exploring repositories, retrieving relevant
-        context, and reasoning over software projects.
-      </p>
-      <p><code>Agentic AI</code> · <code>RAG</code> · <code>Code Intelligence</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <img
-        src="./assets/projects/insightforge.svg"
-        alt="InsightForge AI Data Analyst project card"
-        width="100%"
-      />
-      <h3>InsightForge · AI Data Analyst</h3>
-      <p>
-        An AI-assisted analyst for turning raw datasets into guided analysis,
-        explainable insights, and clearer decisions.
-      </p>
-      <p><code>Data Analysis</code> · <code>Agents</code> · <code>Intelligent Systems</code></p>
-    </td>
-  </tr>
-</table>
-
-<!--
-TODO for the next content pass:
-- Add confirmed repository and demo links to the three project cards.
-- Add only verified languages, frameworks, vector databases, and platforms.
-- Add public LinkedIn, portfolio, email, location, and availability if desired.
--->
-
----
+## System Core
 
 <p align="center">
-  <sub>Exploring how AI can perceive the physical world, work with knowledge, and take useful action.</sub>
+  <samp>01 // ARCHITECTURE</samp><br /><br />
+  <strong>Engineering AI systems that perceive, reason, remember, and act.</strong>
+</p>
+
+<p align="center">
+  <img
+    src="./assets/system-core.svg"
+    alt="Intelligent system architecture connecting vision, agentic AI, RAG memory, tool use, and security"
+    width="100%"
+  />
+</p>
+
+<br />
+
+## Featured Builds
+
+<p align="center"><samp>02 // LAB MODULES</samp></p>
+
+<p align="center">
+  <img
+    src="./assets/projects/concrete-inspection.svg"
+    alt="Concrete Inspection Agent — computer vision for inspection workflows"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="./assets/projects/codebase-intelligence.svg"
+    alt="Codebase Intelligence Agent — repository context, retrieval, and reasoning"
+    width="100%"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="./assets/projects/insightforge.svg"
+    alt="InsightForge AI Data Analyst — turning raw data into explainable insight"
+    width="100%"
+  />
+</p>
+
+<br />
+
+## Agent Console
+
+<p align="center"><samp>03 // EXECUTION LAYER</samp></p>
+
+<details>
+  <summary><strong>▶ RUN &nbsp; intelligence_pipeline()</strong></summary>
+  <br />
+  <p align="center">
+    <img
+      src="./assets/pipeline.svg"
+      alt="Pipeline from input through perception, retrieval, reasoning, tool use, and verified output"
+      width="100%"
+    />
+  </p>
+
+```text
+function intelligence_pipeline(signal):
+    perception = vision.scan(signal)
+    context    = memory.retrieve(perception)
+    plan       = agent.reason(context)
+    result     = tools.execute(plan)
+    return guard.verify(result)
+```
+
+</details>
+
+<br />
+
+<p align="center">
+  <img
+    src="./assets/signal-footer.svg"
+    alt="Perceive, reason, remember, and act"
+    width="100%"
+  />
 </p>
