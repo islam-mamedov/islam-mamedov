@@ -1,80 +1,179 @@
-<!--
-  GitHub Profile README for:
-  https://github.com/islam-mamedov
--->
-
-<div align="center">
-
-# Hi, I'm Islam Mamedov 👋
-
-### Software Developer · Machine Learning Enthusiast · Lifelong Learner
-
-<p>
-  I enjoy turning ideas into useful software, exploring intelligent systems,
-  and continuously improving the way I build.
+<p align="center">
+  <img src="./assets/header-banner.png" alt="Islam Mamedov — AI Engineer" width="100%" />
 </p>
 
-<a href="https://github.com/islam-mamedov">
-  <img src="https://komarev.com/ghpvc/?username=islam-mamedov&label=Profile%20views&color=6C63FF&style=flat-square" alt="Profile views" />
-</a>
-<a href="https://github.com/islam-mamedov?tab=followers">
-  <img src="https://img.shields.io/github/followers/islam-mamedov?label=Followers&style=flat-square&color=6C63FF" alt="GitHub followers" />
-</a>
-<a href="https://github.com/islam-mamedov?tab=repositories">
-  <img src="https://img.shields.io/badge/Projects-Explore-6C63FF?style=flat-square&logo=github" alt="Explore projects" />
-</a>
+<h1 align="center">Islam Mamedov</h1>
 
-</div>
+<p align="center">
+  <strong>Graduate AI Engineer · Computer Vision · Agentic Systems · RAG</strong>
+</p>
+
+<p align="center">
+  I build practical AI systems that can perceive, retrieve evidence, reason through tasks, and deliver usable results.
+</p>
+
+<p align="center">
+  <a href="https://github.com/islam-mamedov">
+    <img src="https://img.shields.io/badge/GitHub-islam--mamedov-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+  <a href="mailto:islammamedov132004@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://huggingface.co/spaces/islam-mamedov/inspection-agent">
+    <img src="https://img.shields.io/badge/Live_AI_Demo-Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="Live AI Demo" />
+  </a>
+</p>
 
 ---
-## 👨‍💻 About Me
 
-```javascript
-const islam = {
-  role: "Software Developer",
+## About Me
 
-  interests: [
-    "Software Engineering",
-    "Machine Learning",
-    "Artificial Intelligence",
-    "Web & Mobile Development"
-  ],
+I am a Computer Science graduate specialising in **Artificial Intelligence and Cybersecurity**. My work combines machine learning, computer vision, retrieval-augmented generation, backend engineering, and full-stack development.
 
-  currentFocus: "Building practical products and improving every day",
-  learning: "New technologies, better architecture, and clean code",
-  collaboration: "Open-source projects and interesting product ideas",
-  philosophy: "Keep learning. Keep building. Keep improving."
-};
-```
+* Building domain-specific AI agents rather than simple chatbot wrappers
+* Fine-tuning and evaluating computer-vision models for real-world tasks
+* Creating RAG systems with evidence grading, query rewriting, and grounded citations
+* Developing production-style APIs, databases, interfaces, and evaluation pipelines
+* Open to graduate **AI Engineering, Machine Learning, and Software Engineering** opportunities
+
+---
+
+## Featured AI Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [Concrete Inspection Agent](https://github.com/islam-mamedov/inspection-agent)
+
+A multimodal AI agent for concrete defect detection and evidence-grounded repair guidance.
+
+**What it does**
+
+* Detects cracks, corrosion, and spalling with a fine-tuned YOLOv8 model
+* Uses a LangGraph RAG workflow over USACE technical guidance
+* Grades retrieved evidence and rewrites weak searches
+* Produces section-level citations and avoids unsupported recommendations
+
+**Stack:** Python · YOLOv8 · LangGraph · RAG · Gradio
+
+[Source Code](https://github.com/islam-mamedov/inspection-agent) · [Live Demo](https://huggingface.co/spaces/islam-mamedov/inspection-agent)
+
+</td>
+<td width="50%" valign="top">
+
+### [InsightForge](https://github.com/islam-mamedov/insightforge)
+
+An autonomous AI data analyst that investigates business questions against a SQL database.
+
+**What it does**
+
+* Plans multi-step analytical investigations
+* Generates and self-repairs SQL queries
+* Validates calculations before presenting conclusions
+* Shows the evidence behind each answer
+* Separates planning, execution, validation, and reporting
+
+**Stack:** Python · FastAPI · PostgreSQL · LLM Agents · SQL
+
+[Source Code](https://github.com/islam-mamedov/insightforge)
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### [Codebase RAG](https://github.com/islam-mamedov/codebase-rag)
+
+An evaluation-driven RAG system for exploring source code, documentation, and GitHub issues.
+
+**What it does**
+
+* Parses code-aware chunks instead of splitting files blindly
+* Retrieves across code, documentation, and issue discussions
+* Produces grounded answers with source citations
+* Includes retrieval and answer-quality evaluation
+* Provides an interactive Streamlit interface
+
+**Stack:** Python · FastAPI · Semantic Search · RAG · Streamlit
+
+[Source Code](https://github.com/islam-mamedov/codebase-rag)
+
+</td>
+<td width="50%" valign="top">
+
+### [Swinburne Campus App](https://github.com/islam-mamedov/swinburne-app-group13)
+
+A mobile-first campus platform combining navigation, safety, support, events, and administration.
+
+**What it includes**
+
+* Campus navigation and location discovery
+* Emergency and safety workflows
+* Support directory, service status, and FAQs
+* Event management and admin CRUD tools
+* Role-based access and Supabase-backed data
+
+**Stack:** Next.js · React · TypeScript · Supabase · Tailwind CSS
+
+[Source Code](https://github.com/islam-mamedov/swinburne-app-group13)
+
+</td>
+</tr>
+</table>
+
+---
+
+## Technical Stack
 
 <p align="center">
-  <img
-    src="./assets/signal-footer.svg"
-    alt="Perceive, reason, remember, and act"
-    width="100%"
-  />
+  <img src="https://skillicons.dev/icons?i=py,pytorch,opencv,sklearn,fastapi,postgres,docker,git,github,linux,ts,nextjs,react,supabase,tailwind&perline=8" alt="Technical skills" />
 </p>
+
+<p align="center">
+  <strong>AI:</strong> Computer Vision · Object Detection · RAG · Agentic Workflows · Embeddings · Model Evaluation<br/>
+  <strong>Engineering:</strong> REST APIs · PostgreSQL · Vector Search · Full-Stack Development · Git · Docker
+</p>
+
+---
+
+## GitHub Contributions
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=islam-mamedov&theme=github_dark" alt="Islam Mamedov GitHub contribution summary" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=islam-mamedov&theme=github-dark-blue&hide_border=true" alt="Islam Mamedov GitHub contribution streak" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=islam-mamedov&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="Islam Mamedov contribution activity graph" width="100%" />
+</p>
+
+---
+
+## Current Focus
 
 ```python
-def intelligence_pipeline(signal):
-    perception = vision.scan(signal)
-    context = memory.retrieve(perception)
-    plan = agent.reason(context)
-    result = tools.execute(plan)
+class CurrentFocus:
+    building = [
+        "multimodal AI agents",
+        "evaluation-driven RAG systems",
+        "autonomous data-analysis workflows",
+        "production-ready AI applications",
+    ]
 
-    return guard.verify(result)
+    principle = "Build systems that are useful, grounded, testable, and explainable."
 ```
 
-
-</details>
-
-<br />
+---
 
 <p align="center">
-  <img
-    src="./assets/signal-footer.svg"
-    alt="Perceive, reason, remember, and act"
-    width="100%"
-  />
+  <strong>Building AI systems that move from perception to evidence, reasoning, and action.</strong>
 </p>
-<div align="center"><img src="./assets/hero-banner.png" alt="Islam Mamedov — AI Engineer" width="100%" align="top"/><img src="./assets/status-rail.svg" alt="AI systems status and navigation" width="100%" align="top"/><img src="./assets/system-intro.svg" alt="System Core — engineering AI systems that perceive, reason, remember, and act" width="100%" align="top"/><img src="./assets/system-core.svg" alt="Intelligent system architecture connecting vision, agentic AI, RAG memory, tool use, and security" width="100%" align="top"/><img src="./assets/featured-intro.svg" alt="Featured Builds — AI lab modules" width="100%" align="top"/><img src="./assets/projects/concrete-inspection.svg" alt="Concrete Inspection Agent" width="100%" align="top"/><img src="./assets/projects/codebase-intelligence.svg" alt="Codebase Intelligence Agent" width="100%" align="top"/><img src="./assets/projects/insightforge.svg" alt="InsightForge AI Data Analyst" width="100%" align="top"/><img src="./assets/console-intro.svg" alt="Agent Console — execution layer" width="100%" align="top"/><img src="./assets/pipeline.svg" alt="Intelligence execution pipeline" width="100%" align="top"/><img src="./assets/code-console.svg" alt="Intelligence pipeline function" width="100%" align="top"/><img src="./assets/signal-footer.svg" alt="Perceive, reason, remember, and act" width="100%" align="top"/></div>
+
+<p align="center">
+  <a href="https://github.com/islam-mamedov?tab=repositories">Explore my repositories</a>
+</p>
