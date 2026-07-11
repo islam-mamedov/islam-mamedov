@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-labelledby="title desc">
+  <title id="title">Concrete Inspection Agent</title>
+  <desc id="desc">A graphite and cyan project card showing computer-vision analysis of a concrete surface.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111923"/>
+      <stop offset="0.58" stop-color="#0a1018"/>
+      <stop offset="1" stop-color="#0d1624"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#47e6ff"/>
+      <stop offset="1" stop-color="#5d7cff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.25" cy="0.48" r="0.55">
+      <stop stop-color="#1eb9e8" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#1eb9e8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#69dff8" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="758" height="318" rx="22" fill="url(#bg)" stroke="#2a5267" stroke-width="2"/>
+  <rect x="1" y="1" width="758" height="318" rx="22" fill="url(#grid)"/>
+  <rect x="1" y="1" width="758" height="318" rx="22" fill="url(#glow)"/>
+  <path d="M22 52V24h28M710 24h28v28M22 268v28h28M738 268v28h-28" fill="none" stroke="#50ddfa" stroke-opacity="0.55" stroke-width="2"/>
+
+  <g transform="translate(42 52)">
+    <rect x="0" y="0" width="226" height="216" rx="18" fill="#151d25" stroke="#557080"/>
+    <path d="M0 52h226M0 108h226M0 164h226M57 0v216M114 0v216M171 0v216" stroke="#7e929d" stroke-opacity="0.2"/>
+    <path d="M112 3l-9 28 13 15-18 20 11 18-27 20 16 22-29 24 17 18-20 21" fill="none" stroke="#b9c6cc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M112 3l-9 28 13 15-18 20 11 18-27 20 16 22-29 24 17 18-20 21" fill="none" stroke="#50e5ff" stroke-opacity="0.72" stroke-width="1.4" stroke-dasharray="260" filter="url(#softGlow)">
+      <animate attributeName="stroke-dashoffset" values="260;0;0" keyTimes="0;0.55;1" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <rect x="55" y="24" width="78" height="82" fill="none" stroke="#49e7ff" stroke-width="2"/>
+    <rect x="57" y="26" width="74" height="2" fill="#a9f6ff" opacity="0.8" filter="url(#softGlow)">
+      <animate attributeName="y" values="26;102;26" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M55 37V24h13M120 24h13v13M55 93v13h13M120 106h13V93" fill="none" stroke="#d2f9ff" stroke-width="3"/>
+    <circle cx="97" cy="75" r="5" fill="#49e7ff" filter="url(#softGlow)">
+      <animate attributeName="r" values="3;7;3" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.55;1;0.55" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="12" y="183" width="98" height="22" rx="5" fill="#07141c" stroke="#3ebfd9"/>
+    <text x="22" y="198" fill="#86eaff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="1.8">DEFECT  0.94</text>
+  </g>
+
+  <g transform="translate(310 55)" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="0" y="15" fill="#66ddf7" font-size="11" font-weight="600" letter-spacing="3">PROJECT 01  /  VISION</text>
+    <rect x="0" y="35" width="74" height="3" rx="1.5" fill="url(#cyan)"/>
+    <text x="0" y="82" fill="#e6edf3" font-size="31" font-weight="700" letter-spacing="1.4">CONCRETE</text>
+    <text x="0" y="118" fill="#c4d0d9" font-size="26" font-weight="500" letter-spacing="1.8">INSPECTION AGENT</text>
+    <text x="0" y="153" fill="#8095a5" font-size="13" letter-spacing="0.4">Visual analysis for inspection workflows</text>
+    <g transform="translate(0 184)" font-size="10" font-weight="600" letter-spacing="1.5">
+      <rect width="82" height="28" rx="14" fill="#102430" stroke="#2c7e94"/>
+      <text x="18" y="18" fill="#6de9ff">DETECT</text>
+      <rect x="94" width="88" height="28" rx="14" fill="#111f31" stroke="#365d9a"/>
+      <text x="111" y="18" fill="#8db8ff">ANALYZE</text>
+      <rect x="194" width="82" height="28" rx="14" fill="#151c31" stroke="#535a9a"/>
+      <text x="213" y="18" fill="#aaa9ff">REPORT</text>
+    </g>
+  </g>
+</svg>

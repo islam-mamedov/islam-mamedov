@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-labelledby="title desc">
+  <title id="title">InsightForge AI Data Analyst</title>
+  <desc id="desc">A graphite, cyan, and purple project card showing an AI data-analysis workspace.</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111a22"/>
+      <stop offset="0.58" stop-color="#0a1018"/>
+      <stop offset="1" stop-color="#181128"/>
+    </linearGradient>
+    <linearGradient id="line3" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#48e7ff"/>
+      <stop offset="0.58" stop-color="#657aff"/>
+      <stop offset="1" stop-color="#a36dff"/>
+    </linearGradient>
+    <linearGradient id="area3" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#4ce5ff" stop-opacity="0.38"/>
+      <stop offset="1" stop-color="#4ce5ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid3" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#7eb7e8" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="glow3" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="758" height="318" rx="22" fill="url(#bg3)" stroke="#4c3e68" stroke-width="2"/>
+  <rect x="1" y="1" width="758" height="318" rx="22" fill="url(#grid3)"/>
+  <circle cx="135" cy="150" r="148" fill="#9c65ff" opacity="0.05"/>
+  <path d="M22 52V24h28M710 24h28v28M22 268v28h28M738 268v28h-28" fill="none" stroke="#9d78ff" stroke-opacity="0.48" stroke-width="2"/>
+
+  <g transform="translate(38 50)">
+    <rect width="238" height="220" rx="16" fill="#0b111b" stroke="#514c72"/>
+    <path d="M0 34h238" stroke="#3c3d5c"/>
+    <circle cx="18" cy="17" r="4" fill="#4ae6ff"/>
+    <circle cx="32" cy="17" r="4" fill="#617dff"/>
+    <circle cx="46" cy="17" r="4" fill="#9b70ff"/>
+    <path d="M25 181V60M25 181h188" stroke="#556477" stroke-width="1.5"/>
+    <path d="M26 167l32-33 28 8 32-49 31 19 28-43 35 19v93H26z" fill="url(#area3)"/>
+    <path d="M26 167l32-33 28 8 32-49 31 19 28-43 35 19" fill="none" stroke="url(#line3)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="300" filter="url(#glow3)">
+      <animate attributeName="stroke-dashoffset" values="300;0;0" keyTimes="0;0.55;1" dur="4.8s" repeatCount="indefinite"/>
+    </path>
+    <g fill="#d9fbff" stroke="#4ce5ff" stroke-width="2">
+      <circle cx="58" cy="134" r="4"/><circle cx="86" cy="142" r="4"/><circle cx="118" cy="93" r="4"/>
+      <circle cx="149" cy="112" r="4"/><circle cx="177" cy="69" r="4"/>
+      <circle cx="212" cy="88" r="4">
+        <animate attributeName="r" values="4;8;4" dur="2.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    <rect x="36" y="49" width="74" height="20" rx="4" fill="#101d29" stroke="#2c7185"/>
+    <text x="47" y="63" fill="#73e9ff" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="1.2">LIVE SIGNAL</text>
+    <circle cx="103" cy="59" r="2.5" fill="#61e8ff" filter="url(#glow3)">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g transform="translate(310 55)" font-family="Inter,Segoe UI,Arial,sans-serif">
+    <text x="0" y="15" fill="#a588ff" font-size="11" font-weight="600" letter-spacing="3">PROJECT 03  /  DATA INTELLIGENCE</text>
+    <rect x="0" y="35" width="74" height="3" rx="1.5" fill="url(#line3)"/>
+    <text x="0" y="82" fill="#e6edf3" font-size="31" font-weight="700" letter-spacing="1.4">INSIGHTFORGE</text>
+    <text x="0" y="118" fill="#c4d0d9" font-size="26" font-weight="500" letter-spacing="1.8">AI DATA ANALYST</text>
+    <text x="0" y="153" fill="#8095a5" font-size="13" letter-spacing="0.4">From raw data to explainable insight</text>
+    <g transform="translate(0 184)" font-size="10" font-weight="600" letter-spacing="1.5">
+      <rect width="78" height="28" rx="14" fill="#102430" stroke="#2c7e94"/>
+      <text x="18" y="18" fill="#6de9ff">QUERY</text>
+      <rect x="90" width="92" height="28" rx="14" fill="#111f31" stroke="#365d9a"/>
+      <text x="105" y="18" fill="#8db8ff">ANALYZE</text>
+      <rect x="194" width="90" height="28" rx="14" fill="#19182f" stroke="#6651a1"/>
+      <text x="210" y="18" fill="#b7a4ff">EXPLAIN</text>
+    </g>
+  </g>
+</svg>
