@@ -1,7 +1,7 @@
 <p align="center">
   <img
     src="./assets/hero-banner.png"
-    alt="Islam Mamedov — AI Engineer working across computer vision, agentic AI, RAG, and intelligent systems"
+    alt="Islam Mamedov — AI Engineer"
     width="100%"
   />
 </p>
@@ -9,7 +9,7 @@
 <p align="center">
   <img
     src="./assets/status-rail.svg"
-    alt="AI core, vision, memory, tools, and security systems online"
+    alt="AI systems status"
     width="100%"
   />
 </p>
@@ -34,7 +34,7 @@
 <p align="center">
   <img
     src="./assets/system-core.svg"
-    alt="Intelligent system architecture connecting vision, agentic AI, RAG memory, tool use, and security"
+    alt="Vision, Agentic AI, RAG, automation and security architecture"
     width="100%"
   />
 </p>
@@ -48,7 +48,7 @@
 <p align="center">
   <img
     src="./assets/projects/concrete-inspection.svg"
-    alt="Concrete Inspection Agent — computer vision for inspection workflows"
+    alt="Concrete Inspection Agent"
     width="100%"
   />
 </p>
@@ -56,8 +56,57 @@
 <p align="center">
   <img
     src="./assets/projects/codebase-intelligence.svg"
-    alt="Codebase Intelligence Agent — repository context, retrieval, and reasoning"
+    alt="Codebase Intelligence Agent"
     width="100%"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="./assets/projects/insightforge.svg"
+    alt="InsightForge AI Data Analyst"
+    width="100%"
+  />
+</p>
+
+<br />
+
+## Agent Console
+
+<p align="center"><samp>03 // EXECUTION LAYER</samp></p>
+
+<details>
+  <summary><strong>▶ RUN &nbsp; intelligence_pipeline()</strong></summary>
+  <br />
+
+  <p align="center">
+    <img
+      src="./assets/pipeline.svg"
+      alt="Intelligence execution pipeline"
+      width="100%"
+    />
+  </p>
+
+```text
+function intelligence_pipeline(signal):
+    perception = vision.scan(signal)
+    context    = memory.retrieve(perception)
+    plan       = agent.reason(context)
+    result     = tools.execute(plan)
+    return guard.verify(result)
+```
+
+</details>
+
+<br />
+
+<p align="center">
+  <img
+    src="./assets/signal-footer.svg"
+    alt="Perceive, reason, remember and act"
+    width="100%"
+  />
+</p>    width="100%"
   />
 </p>
 
