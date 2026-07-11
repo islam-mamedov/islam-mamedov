@@ -1,4 +1,6 @@
-<p align="center">
+from pathlib import Path
+
+readme = r'''<p align="center">
   <img src="./assets/header-banner.png" alt="Islam Mamedov — AI and LLM Engineer" width="100%" />
 </p>
 
@@ -277,28 +279,3 @@ class AIEngineeringPrinciples:
     ]
 
     goal = "Build AI and LLM systems that are useful, testable, secure, and explainable."
-```
-
----
-
-## Open to Opportunities
-
-I am interested in graduate roles involving:
-
-- AI engineering
-- LLM engineering
-- machine learning engineering
-- computer vision
-- RAG and LLM applications
-- agentic systems
-- backend and full-stack AI development
-
-<p align="center">
-  <a href="mailto:islammamedov132004@gmail.com">
-    <img src="https://img.shields.io/badge/Let's_Build_Something-Contact_Me-2EA44F?style=for-the-badge" alt="Contact Islam Mamedov" />
-  </a>
-</p>
-
-<p align="center">
-  <strong>Building AI systems that move from perception to evidence, reasoning, and action.</strong>
-</p>
