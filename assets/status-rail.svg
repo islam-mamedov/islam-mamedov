@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="112" viewBox="0 0 1200 112" role="img" aria-labelledby="title desc">
+  <title id="title">AI systems status rail</title>
+  <desc id="desc">A futuristic status panel showing the AI core, vision, memory, tools, and security modules online.</desc>
+  <defs>
+    <linearGradient id="status-bg" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#080d14"/>
+      <stop offset="0.52" stop-color="#0c1420"/>
+      <stop offset="1" stop-color="#0b0c18"/>
+    </linearGradient>
+    <linearGradient id="status-line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#48e7ff" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#48e7ff"/>
+      <stop offset="0.68" stop-color="#687cff"/>
+      <stop offset="1" stop-color="#a875ff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="status-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M20 0H0V20" fill="none" stroke="#74cfe4" stroke-opacity="0.035"/>
+    </pattern>
+    <filter id="status-glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="1198" height="110" rx="18" fill="url(#status-bg)" stroke="#24374b" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="110" rx="18" fill="url(#status-grid)"/>
+  <path d="M22 29V18h11M1167 18h11v11M22 83v11h11M1178 83v11h-11" fill="none" stroke="#4fe7ff" stroke-opacity="0.5"/>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif">
+    <g transform="translate(42 30)">
+      <text fill="#6feaff" font-size="11" font-weight="700" letter-spacing="2.8">SYSTEM STATUS</text>
+      <text y="25" fill="#e9f3f8" font-size="17" font-weight="700" letter-spacing="1.6">NOMINAL</text>
+    </g>
+
+    <g transform="translate(218 29)">
+      <circle cx="8" cy="9" r="5" fill="#53e7ff" filter="url(#status-glow)">
+        <animate attributeName="opacity" values="0.45;1;0.45" dur="2.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="12" fill="#dbe8ef" font-size="12" font-weight="700" letter-spacing="1.4">AI CORE</text>
+      <text x="24" y="34" fill="#71899b" font-size="10" letter-spacing="1.5">ONLINE</text>
+    </g>
+    <g transform="translate(405 29)">
+      <circle cx="8" cy="9" r="5" fill="#53e7ff" filter="url(#status-glow)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" begin="0.35s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="12" fill="#dbe8ef" font-size="12" font-weight="700" letter-spacing="1.4">VISION</text>
+      <text x="24" y="34" fill="#71899b" font-size="10" letter-spacing="1.5">READY</text>
+    </g>
+    <g transform="translate(582 29)">
+      <circle cx="8" cy="9" r="5" fill="#7288ff" filter="url(#status-glow)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" begin="0.7s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="12" fill="#dbe8ef" font-size="12" font-weight="700" letter-spacing="1.4">MEMORY</text>
+      <text x="24" y="34" fill="#71899b" font-size="10" letter-spacing="1.5">INDEXED</text>
+    </g>
+    <g transform="translate(772 29)">
+      <circle cx="8" cy="9" r="5" fill="#7288ff" filter="url(#status-glow)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" begin="1.05s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="12" fill="#dbe8ef" font-size="12" font-weight="700" letter-spacing="1.4">TOOLS</text>
+      <text x="24" y="34" fill="#71899b" font-size="10" letter-spacing="1.5">CONNECTED</text>
+    </g>
+    <g transform="translate(954 29)">
+      <circle cx="8" cy="9" r="5" fill="#a875ff" filter="url(#status-glow)">
+        <animate attributeName="opacity" values="0.5;1;0.5" dur="2.4s" begin="1.4s" repeatCount="indefinite"/>
+      </circle>
+      <text x="24" y="12" fill="#dbe8ef" font-size="12" font-weight="700" letter-spacing="1.4">GUARD</text>
+      <text x="24" y="34" fill="#71899b" font-size="10" letter-spacing="1.5">ACTIVE</text>
+    </g>
+  </g>
+
+  <path d="M42 88h1116" stroke="#1c2c3b" stroke-width="2"/>
+  <path d="M42 88h1116" stroke="url(#status-line)" stroke-width="2" stroke-dasharray="18 12">
+    <animate attributeName="stroke-dashoffset" from="0" to="-60" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="42" cy="88" r="4" fill="#d7fbff" filter="url(#status-glow)">
+    <animate attributeName="cx" values="42;1158" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
