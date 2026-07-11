@@ -27,34 +27,44 @@
 </div>
 
 ---
-
 ## 👨‍💻 About Me
 
 ```javascript
 const islam = {
   role: "Software Developer",
+
   interests: [
     "Software Engineering",
     "Machine Learning",
     "Artificial Intelligence",
     "Web & Mobile Development"
   ],
+
   currentFocus: "Building practical products and improving every day",
   learning: "New technologies, better architecture, and clean code",
   collaboration: "Open-source projects and interesting product ideas",
   philosophy: "Keep learning. Keep building. Keep improving."
-};      width="100%"
-    />
-  </p>
+};
+```
 
-```text
-function intelligence_pipeline(signal):
+<p align="center">
+  <img
+    src="./assets/signal-footer.svg"
+    alt="Perceive, reason, remember, and act"
+    width="100%"
+  />
+</p>
+
+```python
+def intelligence_pipeline(signal):
     perception = vision.scan(signal)
-    context    = memory.retrieve(perception)
-    plan       = agent.reason(context)
-    result     = tools.execute(plan)
+    context = memory.retrieve(perception)
+    plan = agent.reason(context)
+    result = tools.execute(plan)
+
     return guard.verify(result)
 ```
+
 
 </details>
 
