@@ -107,19 +107,12 @@ interface Developer {
   openToCollaborate: boolean;
   motto: string;
 }
-      <text x="18" y="18" fill="#6de9ff">QUERY</text>
-      <rect x="90" width="92" height="28" rx="14" fill="#111f31" stroke="#365d9a"/>
-      <text x="105" y="18" fill="#8db8ff">ANALYZE</text>
-      <rect x="194" width="90" height="28" rx="14" fill="#19182f" stroke="#6651a1"/>
-      <text x="210" y="18" fill="#b7a4ff">EXPLAIN</text>
-    </g>
-  </g>
-</svg>
 
 const islam: Developer = {
   name: "Islam Mamedov",
   username: "islam-mamedov",
   role: "Software Developer",
+
   interests: [
     "Software Engineering",
     "Machine Learning",
@@ -128,331 +121,22 @@ const islam: Developer = {
     "Mobile Development",
     "Developer Experience"
   ],
+
   currentlyLearning: [
     "System Design",
     "Machine Learning Engineering",
     "Cloud Infrastructure",
     "Clean Architecture"
   ],
+
   openToCollaborate: true,
+
   motto: "Keep learning. Keep building. Keep improving."
 };
+
 export default islam;
+```
 
-
-<br />
-
-### A little more about me
-
-- 🔭 I’m building practical applications and exploring new product ideas
-- 🌱 I’m continuously improving my engineering and problem-solving skills
-- 🧠 I’m interested in intelligent applications powered by data and AI
-- 🧰 I enjoy creating tools that make everyday work easier
-- 🎨 I value clean interfaces and thoughtful user experiences
-- 🧪 I like experimenting with new technologies through real projects
-- 📚 I believe consistent learning is one of the best developer superpowers
-- 🤝 I’m open to collaborating on meaningful open-source projects
-- 💬 I enjoy conversations about software, products, technology, and AI
-- ⚡ My preferred learning method is building something useful
-
----
-
-<!-- =================== CURRENT FOCUS ===================== -->
-
-## 🎯 Current Focus
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-
-### 🔨 Building
-
-- Useful software products
-- Modern web applications
-- Mobile-first experiences
-- Developer productivity tools
-- APIs and backend services
-- AI-assisted applications
-
-    </td>
-    <td width="50%" valign="top">
-
-### 📖 Learning
-
-- Machine learning engineering
-- Scalable system architecture
-- Application security
-- Cloud infrastructure
-- Automated testing
-- Product-oriented development
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-### 🧪 Exploring
-
-- Large language models
-- Intelligent automation
-- Data-driven applications
-- Cross-platform development
-- Open-source ecosystems
-- Human-centered AI
-
-    </td>
-    <td width="50%" valign="top">
-
-### 🤝 Looking For
-
-- Open-source collaboration
-- Interesting product ideas
-- Challenging engineering problems
-- Knowledge-sharing opportunities
-- Developer communities
-- Meaningful connections
-
-    </td>
-  </tr>
-</table>
-
----
-
-<!-- ==================== TECHNOLOGIES ===================== -->
-
-## 🛠️ Technologies & Tools
-
-<div align="center">
-
-### Programming Languages
-
-<img
-  src="https://skillicons.dev/icons?i=python,javascript,typescript,swift,html,css&theme=dark"
-  alt="Programming languages"
-/>
-
-<br />
-<br />
-
-<img
-  src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"
-  alt="Python"
-/>
-
-<img
-  src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"
-  alt="JavaScript"
-/>
-
-<img
-  src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"
-  alt="TypeScript"
-/>
-
-<img
-  src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white"
-  alt="Swift"
-/>
-
-<img
-  src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"
-  alt="HTML5"
-/>
-
-<img
-  src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"
-  alt="CSS3"
-/>
-
-<br />
-<br />
-
-### Frontend Development
-
-<img
-  src="https://skillicons.dev/icons?i=react,nextjs,vite,tailwind,sass&theme=dark"
-  alt="Frontend technologies"
-/>
-
-<br />
-<br />
-
-<img
-  src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"
-  alt="React"
-/>
-
-<img
-  src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"
-  alt="Next.js"
-/>
-
-<img
-  src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white"
-  alt="Vite"
-/>
-
-<img
-  src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white"
-  alt="Tailwind CSS"
-/>
-
-<img
-  src="https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white"
-  alt="Sass"
-/>
-
-<br />
-<br />
-
-### Backend Development
-
-<img
-  src="https://skillicons.dev/icons?i=nodejs,express,fastapi&theme=dark"
-  alt="Backend technologies"
-/>
-
-<br />
-<br />
-
-<img
-  src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"
-  alt="Node.js"
-/>
-
-<img
-  src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white"
-  alt="Express.js"
-/>
-
-<img
-  src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"
-  alt="FastAPI"
-/>
-
-<img
-  src="https://img.shields.io/badge/REST_APIs-6C63FF?style=flat-square&logo=fastapi&logoColor=white"
-  alt="REST APIs"
-/>
-
-<br />
-<br />
-
-### Machine Learning & Data
-
-<img
-  src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn&theme=dark"
-  alt="Machine learning technologies"
-/>
-
-<br />
-<br />
-
-<img
-  src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"
-  alt="TensorFlow"
-/>
-
-<img
-  src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"
-  alt="PyTorch"
-/>
-
-<img
-  src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"
-  alt="Scikit-learn"
-/>
-
-<img
-  src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"
-  alt="Pandas"
-/>
-
-<img
-  src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"
-  alt="NumPy"
-/>
-
-<img
-  src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white"
-  alt="Jupyter"
-/>
-
-<br />
-<br />
-
-### Databases
-
-<img
-  src="https://skillicons.dev/icons?i=postgres,mongodb,redis,sqlite&theme=dark"
-  alt="Database technologies"
-/>
-
-<br />
-<br />
-
-<img
-  src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"
-  alt="PostgreSQL"
-/>
-
-<img
-  src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"
-  alt="MongoDB"
-/>
-
-<img
-  src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"
-  alt="Redis"
-/>
-
-<img
-  src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white"
-  alt="SQLite"
-/>
-
-<br />
-<br />
-
-### Infrastructure & Deployment
-
-<img
-  src="https://skillicons.dev/icons?i=docker,githubactions,vercel,aws,linux&theme=dark"
-  alt="Infrastructure technologies"
-/>
-
-<br />
-<br />
-
-<img
-  src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"
-  alt="Docker"
-/>
-
-<img
-  src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"
-  alt="GitHub Actions"
-/>
-
-<img
-  src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white"
-  alt="Vercel"
-/>
-
-<img
-  src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white"
-  alt="Amazon Web Services"
-/>
-
-<img
-  src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black"
-  alt="Linux"
-/>
-
-<br />
-
-
-  
 <br />
 
 ### A little more about me
@@ -897,3 +581,411 @@ flowchart LR
     D --> E["Improve the experience"]
     E --> F["Ship and learn"]
     F --> A
+```
+
+<br />
+
+1. **Understand the problem** before choosing a technology
+2. **Break complex work** into small, manageable steps
+3. **Build a simple version** that solves the core problem
+4. **Test assumptions** with real feedback and data
+5. **Improve reliability** through testing and clear architecture
+6. **Document important decisions** for future developers
+7. **Ship the product** and learn from actual usage
+8. **Iterate consistently** instead of waiting for perfection
+
+---
+
+<!-- ================= ENGINEERING VALUES ================= -->
+
+## 🧭 Engineering Values
+
+<table>
+  <tr>
+    <td align="center" width="25%">
+      <h3>✨ Simplicity</h3>
+      <p>Prefer clear solutions over unnecessary complexity.</p>
+    </td>
+    <td align="center" width="25%">
+      <h3>🧹 Quality</h3>
+      <p>Write maintainable code that is easy to understand.</p>
+    </td>
+    <td align="center" width="25%">
+      <h3>🧪 Reliability</h3>
+      <p>Test important behavior and handle failure thoughtfully.</p>
+    </td>
+    <td align="center" width="25%">
+      <h3>👥 Users</h3>
+      <p>Build around real needs and meaningful outcomes.</p>
+    </td>
+  </tr>
+</table>
+
+<br />
+
+```text
+Readable code
+    + Thoughtful architecture
+    + Useful documentation
+    + Automated testing
+    + Consistent improvement
+    = Software that lasts
+```
+
+---
+
+<!-- ===================== ANALYTICS ======================= -->
+
+## 📊 GitHub Analytics
+
+<div align="center">
+
+<img
+  width="49%"
+  src="https://github-readme-stats.vercel.app/api?username=islam-mamedov&show_icons=true&include_all_commits=true&count_private=false&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=8B80F9&icon_color=00C9A7&text_color=C9D1D9"
+  alt="Islam Mamedov GitHub statistics"
+/>
+
+<img
+  width="49%"
+  src="https://streak-stats.demolab.com?user=islam-mamedov&theme=tokyonight&hide_border=true&background=0D1117&ring=8B80F9&fire=00C9A7&currStreakLabel=8B80F9&sideLabels=C9D1D9"
+  alt="Islam Mamedov GitHub contribution streak"
+/>
+
+<br />
+<br />
+
+<img
+  width="52%"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=islam-mamedov&layout=compact&langs_count=10&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=8B80F9&text_color=C9D1D9"
+  alt="Islam Mamedov most used languages"
+/>
+
+</div>
+
+<br />
+
+> Language statistics are calculated from public repository code and do not
+> represent my complete professional experience or proficiency.
+
+---
+
+<!-- ================= CONTRIBUTION GRAPH ================= -->
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+<img
+  width="100%"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=islam-mamedov&custom_title=Islam%20Mamedov's%20Contribution%20Graph&bg_color=0D1117&color=C9D1D9&line=8B80F9&point=00C9A7&area=true&area_color=6C63FF&hide_border=true"
+  alt="Islam Mamedov contribution activity graph"
+/>
+
+</div>
+
+---
+
+<!-- =================== ACHIEVEMENTS ====================== -->
+
+## 🏆 GitHub Achievements
+
+<div align="center">
+
+<img
+  width="100%"
+  src="https://github-profile-trophy.vercel.app/?username=islam-mamedov&theme=discord&no-frame=true&no-bg=true&margin-w=8&margin-h=8&column=7"
+  alt="Islam Mamedov GitHub trophies"
+/>
+
+</div>
+
+---
+
+<!-- ===================== PROJECTS ======================== -->
+
+## 📂 Project Showcase
+
+<div align="center">
+
+<a href="https://github.com/islam-mamedov?tab=repositories">
+  <img
+    src="https://img.shields.io/badge/Explore_All_Repositories-181717?style=for-the-badge&logo=github&logoColor=white"
+    alt="Explore all repositories"
+  />
+</a>
+
+<a href="https://github.com/islam-mamedov?tab=repositories&type=source">
+  <img
+    src="https://img.shields.io/badge/Original_Projects-6C63FF?style=for-the-badge&logo=github&logoColor=white"
+    alt="Original projects"
+  />
+</a>
+
+<a href="https://github.com/islam-mamedov?tab=stars">
+  <img
+    src="https://img.shields.io/badge/Starred_Projects-00C9A7?style=for-the-badge&logo=githubsponsors&logoColor=white"
+    alt="Starred projects"
+  />
+</a>
+
+</div>
+
+<br />
+
+### Project philosophy
+
+When creating a project, I aim to include:
+
+- A clearly defined problem
+- A focused and useful solution
+- Clean and understandable source code
+- Consistent project structure
+- Helpful documentation
+- Straightforward installation instructions
+- Examples of important functionality
+- Reliable error handling
+- Appropriate automated testing
+- A roadmap for future improvements
+
+<br />
+
+<!--
+When you have repositories to feature, replace USERNAME/REPOSITORY
+below with your real repository names.
+
+Example:
+
+<a href="https://github.com/islam-mamedov/REPOSITORY">
+  <img
+    width="49%"
+    src="https://github-readme-stats.vercel.app/api/pin/?username=islam-mamedov&repo=REPOSITORY&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B80F9&icon_color=00C9A7&text_color=C9D1D9"
+    alt="Featured repository"
+  />
+</a>
+-->
+
+---
+
+<!-- ===================== ROADMAP ========================= -->
+
+## 🗺️ Personal Roadmap
+
+### Short-term goals
+
+- [ ] Publish more complete open-source projects
+- [ ] Improve project documentation
+- [ ] Expand automated testing knowledge
+- [ ] Build more AI-assisted features
+- [ ] Contribute to useful open-source repositories
+- [ ] Share technical lessons and discoveries
+
+### Long-term goals
+
+- [ ] Design reliable and scalable software systems
+- [ ] Build products that solve meaningful problems
+- [ ] Develop deeper machine learning expertise
+- [ ] Collaborate with developers around the world
+- [ ] Help others learn through code and documentation
+- [ ] Create software with a positive real-world impact
+
+---
+
+<!-- ================== COLLABORATION ====================== -->
+
+## 🤝 Open to Collaboration
+
+I’m interested in collaborating on projects involving:
+
+- Artificial intelligence
+- Machine learning
+- Web applications
+- Mobile applications
+- Developer tools
+- Open-source software
+- Automation
+- Productivity
+- Data-driven products
+- Educational technology
+
+<br />
+
+### A good collaboration includes
+
+```yaml
+collaboration:
+  communication:
+    - clear
+    - respectful
+    - honest
+
+  development:
+    - focused
+    - documented
+    - maintainable
+
+  teamwork:
+    - shared ownership
+    - constructive feedback
+    - continuous learning
+
+  outcome:
+    - useful software
+    - stronger skills
+    - positive impact
+```
+
+---
+
+<!-- ==================== FUN FACTS ======================== -->
+
+## ⚡ Developer Facts
+
+- My best ideas often start as small experiments
+- I enjoy understanding how tools work beneath the interface
+- I prefer readable code over clever code
+- I believe good naming is part of good architecture
+- I enjoy improving existing systems as much as creating new ones
+- I treat documentation as part of the product
+- I believe feedback is one of the fastest ways to improve
+- I’m always searching for a simpler and more reliable solution
+- I see programming as both engineering and creative problem-solving
+- I believe meaningful progress comes from consistency
+
+---
+
+<!-- ===================== QUOTE =========================== -->
+
+## 💭 Development Mindset
+
+<div align="center">
+
+> “First, solve the problem. Then, write the code.”
+
+<br />
+
+> “Small improvements, repeated consistently, create remarkable results.”
+
+<br />
+
+> “The best projects are built where curiosity meets real human needs.”
+
+</div>
+
+---
+
+<!-- ===================== CONNECT ========================= -->
+
+## 🌍 Let's Connect
+
+<div align="center">
+
+<p>
+  I'm always interested in useful projects, thoughtful conversations,
+  open-source collaboration, and new learning opportunities.
+</p>
+
+<br />
+
+<a href="https://github.com/islam-mamedov">
+  <img
+    src="https://img.shields.io/badge/GitHub-islam--mamedov-181717?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub profile"
+  />
+</a>
+
+<a href="https://github.com/islam-mamedov?tab=repositories">
+  <img
+    src="https://img.shields.io/badge/Repositories-Explore-6C63FF?style=for-the-badge&logo=github&logoColor=white"
+    alt="GitHub repositories"
+  />
+</a>
+
+<a href="https://github.com/islam-mamedov?tab=followers">
+  <img
+    src="https://img.shields.io/badge/Follow_Me-00C9A7?style=for-the-badge&logo=github&logoColor=white"
+    alt="Follow on GitHub"
+  />
+</a>
+
+<br />
+<br />
+
+### If you find one of my projects useful
+
+⭐ Give the repository a star  
+🍴 Fork it and experiment  
+🐛 Open an issue  
+💡 Suggest an improvement  
+🤝 Contribute a pull request  
+
+</div>
+
+---
+
+<!-- ===================== SUPPORT ========================= -->
+
+## 💜 Support My Work
+
+If something I build helps you, the simplest ways to support my work are:
+
+- Star the repository
+- Share it with another developer
+- Report problems clearly
+- Suggest helpful improvements
+- Contribute documentation or code
+- Follow my GitHub profile
+
+<div align="center">
+
+<a href="https://github.com/islam-mamedov?tab=repositories">
+  <img
+    src="https://img.shields.io/badge/⭐_Star_a_Project-6C63FF?style=for-the-badge"
+    alt="Star a project"
+  />
+</a>
+
+</div>
+
+---
+
+<!-- ====================== FOOTER ========================= -->
+
+<div align="center">
+
+### Thanks for visiting my profile!
+
+<br />
+
+<img
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=3000&pause=1000&color=00C9A7&center=true&vCenter=true&width=600&lines=Let's+build+something+useful+together.;Learning+one+commit+at+a+time.;See+you+in+the+next+project!"
+  alt="Footer typing animation"
+/>
+
+<br />
+<br />
+
+**Designed with curiosity, code, and plenty of coffee ☕**
+
+<br />
+
+<a href="#-about-me">
+  <img
+    src="https://img.shields.io/badge/Back_to_Top-6C63FF?style=flat-square&logo=github&logoColor=white"
+    alt="Back to top"
+  />
+</a>
+
+<br />
+
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=0:00C9A7,50:6C63FF,100:8B5CF6"
+  alt="Footer banner"
+/>
+
+</div>
+
+<!-- =========================================================
+     End of GitHub Profile README
+========================================================== -->
