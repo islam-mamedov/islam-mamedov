@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/islam-mamedov">LinkedIn</a>
   ·
-  <a href="https://huggingface.co/islam-mamedov">Hugging Face</a>
+  <a href="https://huggingface.co/islam-mamedov">Live AI Demos</a>
   ·
   <a href="mailto:islammamedov132004@gmail.com">Email</a>
 </p>
