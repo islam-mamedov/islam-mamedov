@@ -3,11 +3,11 @@
 </p>
 
 <p align="center">
-  <strong>Computer Science graduate building practical AI, LLM, RAG, computer-vision, and software-engineering systems.</strong>
+  <strong>I build grounded AI systems that connect models, data, tools, evaluation, and usable software.</strong>
 </p>
 
 <p align="center">
-  <a href="https://github.com/islam-mamedov">GitHub</a>
+  <a href="YOUR_LINKEDIN_URL">LinkedIn</a>
   ·
   <a href="https://huggingface.co/islam-mamedov">Hugging Face</a>
   ·
@@ -20,9 +20,9 @@
 
 I am a Computer Science graduate from **Swinburne University of Technology Sarawak**, with a double major in **Artificial Intelligence and Cybersecurity**.
 
-I enjoy building complete systems rather than isolated model demonstrations. My work combines LLMs, retrieval, computer vision, backend services, databases, evaluation, testing, and usable interfaces.
+I build complete AI applications that combine LLMs, retrieval, computer vision, backend services, databases, evaluation, testing, and user-facing interfaces.
 
-I am currently open to graduate opportunities in **AI Engineering, LLM Engineering, Machine Learning, and Software Engineering**.
+I am open to graduate opportunities in **AI Engineering, LLM Engineering, Machine Learning, and Software Engineering**.
 
 ---
 
@@ -32,17 +32,26 @@ I am currently open to graduate opportunities in **AI Engineering, LLM Engineeri
 
 An evaluation-driven RAG system for asking technical questions about the FastAPI codebase.
 
-The system searches source code, documentation, and resolved GitHub issues before generating an answer. It returns file, symbol, and line-level references so the response can be checked against the original source.
+The system searches source code, documentation, and resolved GitHub issues before generating an answer. It returns file, symbol, and line-level references so each response can be checked against the original source.
+
+<p align="center">
+  <a href="https://huggingface.co/spaces/islam-mamedov/fastapi-codebase-qa">
+    <img
+      src="https://raw.githubusercontent.com/islam-mamedov/codebase-rag/main/assets/codebase-rag-demo.gif"
+      alt="FastAPI Codebase Q&A demo"
+      width="82%"
+    />
+  </a>
+</p>
 
 **Key engineering work**
 
 - Built AST-aware code chunking with Tree-sitter
-- Compared dense retrieval, BM25, reranking, and LLM query rewriting
+- Compared dense, hybrid, reranked, and query-rewritten retrieval
 - Added grounded citations and evidence-aware refusal
-- Created a labelled benchmark for retrieval and answer quality
-- Added resumable ingestion, caching, retries, and regression tests
+- Created a labelled evaluation benchmark and regression pipeline
 
-**Results:** Recall@5 `0.91` · MRR `0.71` · Faithfulness `0.89` · Correctness `0.91` · Refusal accuracy `7/7`
+**Results:** Recall@5 `91%` · MRR `0.71` · Faithfulness `89%` · Correctness `91%` · Refusal accuracy `7/7`
 
 **Stack:** Python · LLMs · RAG · Streamlit · ChromaDB · BGE Embeddings · Tree-sitter · Pytest
 
@@ -58,18 +67,20 @@ The system plans an investigation, discovers the relevant schema, generates SQL,
 
 <p align="center">
   <a href="https://github.com/islam-mamedov/insightforge">
-    <img src="https://raw.githubusercontent.com/islam-mamedov/insightforge/main/docs/demo.png" alt="InsightForge interface" width="88%" />
+    <img
+      src="https://raw.githubusercontent.com/islam-mamedov/insightforge/main/docs/demo.png"
+      alt="InsightForge interface"
+      width="82%"
+    />
   </a>
 </p>
 
 **Key engineering work**
 
 - Designed an eight-stage investigation workflow
-- Added SQL inspection with SQLGlot
-- Enforced read-only execution and restricted-table protection
-- Added automatic SQL repair with controlled retries
-- Validated empty outputs, null-only columns, and join duplication
-- Tracked token use, latency, cost, and execution history
+- Added SQL safety inspection with SQLGlot and read-only execution
+- Implemented automatic SQL repair and result validation
+- Added token, latency, cost, and execution tracking
 
 **Project snapshot:** `103 tests` · `~650,000 database rows` · `6 planted anomalies` · `3 repair attempts maximum`
 
@@ -83,21 +94,24 @@ The system plans an investigation, discovers the relevant schema, generates SQL,
 
 A multimodal AI system that combines concrete-defect detection with evidence-grounded repair guidance.
 
-The vision model detects cracks, corrosion, and spalling. A LangGraph workflow then retrieves relevant information from USACE engineering guidance and uses the evidence to produce a cited response.
+The vision model detects cracks, corrosion, and spalling. A LangGraph workflow then retrieves relevant information from USACE engineering guidance and uses that evidence to produce a cited response.
 
 <p align="center">
   <a href="https://huggingface.co/spaces/islam-mamedov/inspection-agent">
-    <img src="https://raw.githubusercontent.com/islam-mamedov/inspection-agent/main/assets/inspection-agent-demo.png" alt="Concrete Inspection Agent interface" width="88%" />
+    <img
+      src="https://raw.githubusercontent.com/islam-mamedov/inspection-agent/main/assets/inspection-agent-demo.png"
+      alt="Concrete Inspection Agent interface"
+      width="82%"
+    />
   </a>
 </p>
 
 **Key engineering work**
 
-- Fine-tuned YOLOv8 for crack, corrosion, and spalling detection
+- Fine-tuned YOLOv8 for three concrete-defect classes
 - Built a LangGraph workflow with retrieval grading and query rewriting
-- Created a ChromaDB knowledge base with section-level metadata
-- Added cited answers and unsupported-question refusal
-- Evaluated retrieval, citations, faithfulness, and refusal behaviour
+- Added section-level citations and unsupported-question refusal
+- Evaluated retrieval, citation validity, faithfulness, and refusal behaviour
 
 **Results:** `1,770 images` · `5,897 objects` · Retrieval `28/28` · Citation validity `33/33` · Faithfulness `31/32`
 
@@ -109,10 +123,19 @@ The vision model detects cracks, corrosion, and spalling. A LangGraph workflow t
 
 ## Additional Work
 
-| Project | What I built | Stack |
-|---|---|---|
-| [Java Multi-Agent Vehicle Routing System](https://github.com/islam-mamedov/vrp-mas-intelligent-system) | A JADE-based routing system using master and delivery agents, genetic algorithms, simulated annealing, nearest-neighbour search, and local optimisation | Java · JADE · Multi-Agent Systems |
-| [Swinburne Campus App](https://github.com/islam-mamedov/swinburne-app-group13) | A mobile-first campus platform for navigation, safety, support, events, and administration | Next.js · React · TypeScript · Supabase |
+### [Java Multi-Agent Vehicle Routing System](https://github.com/islam-mamedov/vrp-mas-intelligent-system)
+
+A JADE-based routing system using master and delivery agents, genetic algorithms, simulated annealing, nearest-neighbour search, and local optimisation.
+
+**Stack:** Java · JADE · Multi-Agent Systems · Genetic Algorithm · Simulated Annealing
+
+### [Swinburne Campus App](https://github.com/islam-mamedov/swinburne-app-group13)
+
+A mobile-first campus platform for navigation, safety, student support, events, and administration.
+
+I worked mainly on the admin console, emergency and exit-management workflows, support features, full-stack integration, and team coordination.
+
+**Stack:** Next.js · React · TypeScript · Supabase · Tailwind CSS
 
 ---
 
@@ -126,18 +149,12 @@ The vision model detects cracks, corrosion, and spalling. A LangGraph workflow t
 
 ---
 
-## Education
-
-**Bachelor of Computer Science**  
-Swinburne University of Technology Sarawak  
-Double Major: **Artificial Intelligence and Cybersecurity**
-
----
-
 <p align="center">
   <strong>Building AI systems that move from raw data to evidence, reasoning, and useful action.</strong>
 </p>
 
 <p align="center">
+  <a href="YOUR_LINKEDIN_URL">LinkedIn</a>
+  ·
   <a href="mailto:islammamedov132004@gmail.com">Contact me</a>
 </p>
