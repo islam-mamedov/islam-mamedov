@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="YOUR_LINKEDIN_URL">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/islam-mamedov">LinkedIn</a>
   ·
   <a href="https://huggingface.co/islam-mamedov">Hugging Face</a>
   ·
@@ -154,7 +154,7 @@ I worked mainly on the admin console, emergency and exit-management workflows, s
 </p>
 
 <p align="center">
-  <a href="YOUR_LINKEDIN_URL">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/islam-mamedov">LinkedIn</a>
   ·
   <a href="mailto:islammamedov132004@gmail.com">Contact me</a>
 </p>
